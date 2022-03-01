@@ -1,0 +1,116 @@
+/*Colors and Fonts */
+
+body { 
+	background-color: #CEAB93;
+	color: rgb(50, 50, 50);
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 15px;
+}
+
+h1, h2, h3 {
+	color: #7882A4;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 34px;
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #2D7ABA;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: rgb(50, 50, 50);
+}
+
+.card-white{
+	background: white;
+	border-radius: 30px;
+	margin: 25px 0px;
+	padding: 40px;
+}
+
+/*approfondissement*/
+
+.btn-red{
+	background-color: #DD4A48;
+    color: whitesmoke;
+    padding: 12px 12px;
+    border-radius: 5px;
+}
+div {
+	display: block;
+}
+.container{
+	margin: 45px auto;
+	width: 800px;
+}
+
+p {
+	display: block;
+	margin-block-start:  2em;
+	margin-block-end:  2em;
+	margin-inline-start:  5px;
+	margin-inline-end:  5px;
+}
+
+.img-circle {
+	border-radius: 55px;
+	width: 250px;
+}
+
+/* Logo insta et Linkedin*/
+
+ul {
+	display: block;
+	padding-inline-start: 35px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding:  10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	color: #DD4A48;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
